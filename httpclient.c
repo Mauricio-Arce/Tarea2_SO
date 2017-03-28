@@ -15,7 +15,7 @@ int curl_llamada( char *url, char *output){
 	strcat(comando, url );
 	strcat(comando, " > resultados/" ); 
 	strcat(comando, output); // al final quedaria: curl [url] > <output_name>.html
-	strcat(comando, ".html");
+	//strcat(comando, ".html");
 	printf("%s\n", comando); 
 	system(comando);
 	return 0;

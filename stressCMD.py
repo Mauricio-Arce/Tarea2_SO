@@ -12,7 +12,7 @@ def worker( *comando):
 ## manejo de argumentos vio argparse library
 def manager_de_argumentos():
 	parser = argparse.ArgumentParser(description='Stress de Httpclient')
-	parser.add_argument('-n', action='store', dest='cantidad_de_hilos', help='Cantidad de hilos que se utilizaran', type=int, required=True)
+	parser.add_argument('-n', action='store', dest='cantidad_hilos', help='Cantidad de hilos que se utilizaran', type=int, required=True)
 	parser.add_argument('comando', metavar='Comando_a_usar', type=str, nargs=2, help='Commando a ejecutar y sus parametros')
 	lista_comandos = parser.parse_args()
 	return lista_comandos 
