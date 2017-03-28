@@ -1,0 +1,17 @@
+gcc main.c -o prethread-webserver -lpthread
+
+httpclient
+
+POST y PUT (CGI)
+
+serverPrethread y preforked
+
+
+HOY
+httpl\cliente python
+serverprethread
+serverpreforked
+
+post put
+protocolos
+
