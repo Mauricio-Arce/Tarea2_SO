@@ -1,2 +1,0 @@
-gcc -std=c99  main.c -o preforked-webserver 
-./preforked-webserver -n 117 -w www-root/ -p 8080 -t FTP
